@@ -4,9 +4,7 @@
 ---
 
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## Objetivo
@@ -51,14 +49,17 @@ O subsistema está pronto para ser utilizado.
 
 <h2 id="instalando-nginx">2. Instalando o servidor Nginx</h2>
 Antes de instalar o servidor Nginx, é importante atualizar os pacotes do sistemas através do comando abaixo:
+
 ```bash
 sudo apt update
 ```
 Após a atualização, seguimos com os comandos para instalar o Nginx: 
+
 ```bash
 sudo apt install nginx
 ```
 Completada a instalação do servidor, podemos verificar o seu funcionamento através do comando:
+
 ```bash
 service nginx status
 ```
